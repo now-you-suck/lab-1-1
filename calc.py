@@ -1,3 +1,9 @@
+def power(a, b):
+    return a ** b
+def square_root(a):
+    return a ** 0.5
+
+
 def add(a, b):
     return a + b
 
@@ -11,5 +17,6 @@ def divide(a, b):
     else:
         return "Ошибка: деление на ноль"
 # Основная программа
-print("Простой калькулятор")
-print("Доступные операции: +, -, *, /")
+print("Улучшенный калькулятор")
+print("Доступные операции: +, -, *, /, ^, sqrt")
+
