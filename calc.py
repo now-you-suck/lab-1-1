@@ -1,7 +1,9 @@
-def power(a, b):
-    return a ** b
-def square_root(a):
-    return a ** 0.5
+def get_number(prompt):
+    while True:
+        try:
+            return float(input(prompt))
+        except ValueError:
+            print("ГЋГёГЁГЎГЄГ : ГўГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®")
 
 
 def add(a, b):
@@ -15,8 +17,8 @@ def divide(a, b):
     if b != 0:
         return a / b
     else:
-        return "Ошибка: деление на ноль"
-# Основная программа
-print("Улучшенный калькулятор")
-print("Доступные операции: +, -, *, /, ^, sqrt")
+        return "ГЋГёГЁГЎГЄГ : Г¤ГҐГ«ГҐГ­ГЁГҐ Г­Г  Г­Г®Г«Гј"
+# ГЋГ±Г­Г®ГўГ­Г Гї ГЇГ°Г®ГЈГ°Г Г¬Г¬Г 
+print("Г“Г«ГіГ·ГёГҐГ­Г­Г»Г© ГЄГ Г«ГјГЄГіГ«ГїГІГ®Г°")
+print("Г„Г®Г±ГІГіГЇГ­Г»ГҐ Г®ГЇГҐГ°Г Г¶ГЁГЁ: +, -, *, /, ^, sqrt")
 
